@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SheetInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <noteTime>
+    <float>1.27997732</float>
+    <float>2.55997729</float>
+    <float>3.24265313</float>
+    <float>3.86131525</float>
+    <float>4.479977</float>
+    <float>4.94932</float>
+    <float>5.162653</float>
+    <float>5.3333106</float>
+    <float>5.546644</float>
+    <float>5.71732426</float>
+    <float>5.90932</float>
+    <float>6.122653</float>
+    <float>6.31464863</float>
+    <float>6.54931974</float>
+    <float>6.74131536</float>
+    <float>6.95464849</float>
+  </noteTime>
+  <noteType>
+    <EnoteType>M</EnoteType>
+    <EnoteType>M</EnoteType>
+    <EnoteType>M</EnoteType>
+    <EnoteType>M</EnoteType>
+    <EnoteType>M</EnoteType>
+    <EnoteType>M</EnoteType>
+    <EnoteType>M</EnoteType>
+    <EnoteType>M</EnoteType>
+    <EnoteType>M</EnoteType>
+    <EnoteType>M</EnoteType>
+    <EnoteType>M</EnoteType>
+    <EnoteType>M</EnoteType>
+    <EnoteType>M</EnoteType>
+    <EnoteType>M</EnoteType>
+    <EnoteType>M</EnoteType>
+    <EnoteType>M</EnoteType>
+  </noteType>
+  <song>
+    <length>92.8660049</length>
+    <songName>Empty</songName>
+    <songPath>D:/Scream/Unity/Rhythm/Source/Music/03.All Alone With You (TV Edit).ogg</songPath>
+  </song>
+  <sheetName>ASS</sheetName>
+  <author>DDSD</author>
+  <sheetPhotoPath>D:/Scream/Unity/Rhythm/Source/SheetPhoto/nocover.jpg</sheetPhotoPath>
+</SheetInfo>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SheetInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <noteTime>
+    <float>1.0</float>
+    <float>2.0</float>
+    <float>5.0</float>
+    <float>6.0</float>
+    <float>7.0</float>
+    <float>8.0</float>
+    <float>9.0</float>
+    <float>10.0</float>
+    <float>11.0</float>
+    <float>12.0</float>
+    <float>13.0</float>
+    <float>14.0</float>
+    <float>15.0</float>
+    <float>16.0</float>
+    <float>17.0</float>
+    <float>18.0</float>
+    <float>19.0</float>
+    <float>20.0</float>
+    <float>21.0</float>
+    <float>22.0</float>
+  </noteTime>
+  <noteType>
+    <EnoteType>L</EnoteType>
+    <EnoteType>M</EnoteType>
+    <EnoteType>R</EnoteType>
+    <EnoteType>L</EnoteType>
+    <EnoteType>M</EnoteType>
+    <EnoteType>R</EnoteType>
+    <EnoteType>L</EnoteType>
+    <EnoteType>M</EnoteType>
+    <EnoteType>R</EnoteType>
+    <EnoteType>L</EnoteType>
+    <EnoteType>M</EnoteType>
+    <EnoteType>R</EnoteType>
+    <EnoteType>L</EnoteType>
+    <EnoteType>M</EnoteType>
+    <EnoteType>R</EnoteType>
+    <EnoteType>L</EnoteType>
+    <EnoteType>M</EnoteType>
+    <EnoteType>R</EnoteType>
+    <EnoteType>L</EnoteType>
+    <EnoteType>M</EnoteType>
+  </noteType>
+  <song>
+    <length>92.8660049</length>
+    <songName>Empty</songName>
+    <songPath>D:/Scream/Unity/Rhythm/Source/Music/03.All Alone With You (TV Edit).ogg</songPath>
+  </song>
+  <sheetName>AAA</sheetName>
+  <author>AAA</author>
+  <sheetPhotoPath>D:/Scream/Unity/Rhythm/Source/SheetPhoto/nocover.jpg</sheetPhotoPath>
+</SheetInfo>

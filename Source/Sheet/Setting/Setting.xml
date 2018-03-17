@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Setting xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <necessaryTime>2</necessaryTime>
+  <speed>50</speed>
+  <delay>0.005</delay>
+  <sheetPath>D:\Scream\Unity\Rhythm\Source\Sheet\</sheetPath>
+</Setting>

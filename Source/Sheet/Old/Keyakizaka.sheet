@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SheetInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <noteTime>
+    <float>1.002653</float>
+    <float>1.663991</float>
+    <float>1.87732422</float>
+    <float>2.346644</float>
+    <float>2.5386622</float>
+    <float>3.00798178</float>
+    <float>3.1999774</float>
+  </noteTime>
+  <noteType>
+    <EnoteType>M</EnoteType>
+    <EnoteType>M</EnoteType>
+    <EnoteType>M</EnoteType>
+    <EnoteType>M</EnoteType>
+    <EnoteType>M</EnoteType>
+    <EnoteType>M</EnoteType>
+    <EnoteType>M</EnoteType>
+  </noteType>
+  <song>
+    <length>91.36</length>
+    <songName>Empty</songName>
+    <songPath>D:/Scream/Unity/Rhythm/Source/Music/06.Brave Shine (TV Size).ogg</songPath>
+  </song>
+  <sheetName>Keyakizaka</sheetName>
+  <author>Scream</author>
+  <sheetPhotoPath>D:/Scream/Unity/Rhythm/Source/SheetPhoto/nocover.jpg</sheetPhotoPath>
+</SheetInfo>

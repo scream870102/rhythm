@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SheetInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <note>
+    <noteInfo>
+      <enotePos>M</enotePos>
+      <enoteType>instant</enoteType>
+      <noteTime>1.12595236</noteTime>
+    </noteInfo>
+    <noteInfo>
+      <enotePos>L</enotePos>
+      <enoteType>instant</enoteType>
+      <noteTime>1.493288</noteTime>
+    </noteInfo>
+    <noteInfo>
+      <enotePos>L</enotePos>
+      <enoteType>instant</enoteType>
+      <noteTime>1.93459189</noteTime>
+    </noteInfo>
+    <noteInfo>
+      <enotePos>R</enotePos>
+      <enoteType>instant</enoteType>
+      <noteTime>2.31953454</noteTime>
+    </noteInfo>
+    <noteInfo>
+      <enotePos>M</enotePos>
+      <enoteType>instant</enoteType>
+      <noteTime>2.65320683</noteTime>
+    </noteInfo>
+    <noteInfo>
+      <enotePos>L</enotePos>
+      <enoteType>instant</enoteType>
+      <noteTime>3.06918359</noteTime>
+    </noteInfo>
+    <noteInfo>
+      <enotePos>R</enotePos>
+      <enoteType>instant</enoteType>
+      <noteTime>3.36759639</noteTime>
+    </noteInfo>
+  </note>
+  <song>
+    <length>92.8660049</length>
+    <songName>03.All Alone With You (TV Edit)</songName>
+    <songPath>D:/Scream/Unity/Rhythm/Source/Music/03.All Alone With You (TV Edit).ogg</songPath>
+    <bpm>123123123</bpm>
+  </song>
+  <sheetName>ASDASDASDASDASDASDASDASD</sheetName>
+  <author>AAASASAS</author>
+  <sheetPhotoPath>D:/Scream/Unity/Rhythm/Source/SheetPhoto/cover.jpg</sheetPhotoPath>
+</SheetInfo>
