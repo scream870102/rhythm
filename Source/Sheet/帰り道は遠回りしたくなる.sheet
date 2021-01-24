@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SheetInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <note>
+    <NoteInfo>
+      <enotePos>M</enotePos>
+      <enoteType>instant</enoteType>
+      <noteTime>1.834331</noteTime>
+    </NoteInfo>
+    <NoteInfo>
+      <enotePos>M</enotePos>
+      <enoteType>instant</enoteType>
+      <noteTime>2.495034</noteTime>
+    </NoteInfo>
+    <NoteInfo>
+      <enotePos>M</enotePos>
+      <enoteType>instant</enoteType>
+      <noteTime>3.43290257</noteTime>
+    </NoteInfo>
+    <NoteInfo>
+      <enotePos>M</enotePos>
+      <enoteType>instant</enoteType>
+      <noteTime>3.9870975</noteTime>
+    </NoteInfo>
+    <NoteInfo>
+      <enotePos>M</enotePos>
+      <enoteType>instant</enoteType>
+      <noteTime>4.26417255</noteTime>
+    </NoteInfo>
+    <NoteInfo>
+      <enotePos>M</enotePos>
+      <enoteType>instant</enoteType>
+      <noteTime>4.49863958</noteTime>
+    </NoteInfo>
+  </note>
+  <song>
+    <length>5</length>
+    <songName>Empty</songName>
+    <songPath>D:\Scream\Unity\Rhythm\Source\Music\2.ogg</songPath>
+    <bpm>123</bpm>
+  </song>
+  <sheetName>帰り道は遠回りしたくなる</sheetName>
+  <author>Scream</author>
+  <sheetPhotoPath>D:\Scream\Unity\Rhythm\Source\SheetPhoto\kaerimichi.jpg</sheetPhotoPath>
+</SheetInfo>

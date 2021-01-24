@@ -37,6 +37,7 @@ public class PlayManager : MonoBehaviour
     public CanvasGroup infoUI;
     public Text jugeText;
     public Text percentageText;
+    public Animator anim;
 
     //const
     private const float FADE_VELOCITY = 0.005f;
@@ -51,9 +52,11 @@ public class PlayManager : MonoBehaviour
     void Start() {
         GlobalInfo.G_state = GlobalInfo.STATE_MUSIC_STOPPING;
         loadScreen.gameObject.SetActive(true);
-        StartCoroutine(InitScene());
         SetCoverAndSong();
         InitUI();
+        Debug.LogWarning("A");
+        StartCoroutine(InitScene());
+        Debug.LogWarning("B");
         //init boolean
         isReady = false;
         isMusicPlay = false;
@@ -88,15 +91,11 @@ public class PlayManager : MonoBehaviour
 
         //Fade when song Going to play
         if (isReady) {
-            FadeUI(false,ref infoUI);
-            FadeUI(true,ref playUI);
-            if (playUI.alpha > 0.99f) {
-                isReady = false;
-                playUI.alpha = 1.0f;
-                infoUI.gameObject.SetActive(false);
-                StartCoroutine(PlayMusic());
-            }
+            anim.SetTrigger("Fade");
+            StartCoroutine(PlayMusic());
+            isReady = false;
         }
+
 
         //if Game is finish set result
         if (isGameFin) {
@@ -109,9 +108,12 @@ public class PlayManager : MonoBehaviour
     }
 
     IEnumerator InitScene() {
+        Debug.LogWarning("C");
         yield return new WaitForSeconds(GlobalInfo.LOAD_DELAY);
+        Debug.LogWarning("D");
         loadScreen.gameObject.SetActive(false);
         yield return StartCoroutine(Ready());
+        Debug.LogWarning("E");
     }
 
     //call after start is all finish
@@ -163,9 +165,6 @@ public class PlayManager : MonoBehaviour
             note[note.Count - 1].name = "note" + note.Count;
             note[note.Count - 1].transform.parent = spawnNoteParent.transform;
             note[note.Count - 1].GetComponent<PlayNote>().manager = this;
-            //if(GlobalInfo.G_sheetToPlay.note[i].noteTime<=GlobalInfo.G_necessaryTime*1.1)
-            //    note[note.Count - 1].GetComponent<MeshRenderer>().enabled = true;
-            //else
             note[note.Count - 1].GetComponent<MeshRenderer>().enabled = false;
             note[note.Count - 1].GetComponent<PlayNote>().noteTime = GlobalInfo.G_sheetToPlay.note[note.Count-1].noteTime;
             totalScore += GlobalInfo.G_basicNoteScore * (1+((i+1.0f) / GlobalInfo.G_sheetToPlay.note.Count)) * GlobalInfo.G_scoreBonus;
@@ -192,14 +191,6 @@ public class PlayManager : MonoBehaviour
         comboText.text = combo.ToString("000");
         jugeText.text = GlobalInfo.JUGE_STRING[hitJudge];
         percentageText.text = (score / totalScore * 100).ToString("000.0")+"%";
-    }
-
-    //Fade UI true fade in false fade out
-    void FadeUI(bool value,ref CanvasGroup UI) {
-        if (value)
-            UI.alpha += FADE_VELOCITY;
-        else
-            UI.alpha -= FADE_VELOCITY;
     }
 
 }

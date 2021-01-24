@@ -7,6 +7,9 @@ using System.Xml;
 using System.Xml.Serialization;
 //using UnityEditor;
 public class SourceLoader : MonoBehaviour {
+    public bool isSongLoaded;
+    public bool isSheetLoaded;
+    public bool isCoverLoaded;
     private const float WAIT_DELAY = 2.0f;
 
     //save everything of a sheet to file
@@ -93,6 +96,7 @@ public class SourceLoader : MonoBehaviour {
     }
 
     public void LoadSong(string path,ref AudioSource result) {
+        isSongLoaded = false;
         StartCoroutine(LoadSongCoroutine(path,result));
     }
 
@@ -104,6 +108,7 @@ public class SourceLoader : MonoBehaviour {
         result.clip = www.GetAudioClip(false, false);
         //////////////////////////
         //Action after Song is Loaded
+        isSongLoaded = true;
         /////////////////////////
     }
 
